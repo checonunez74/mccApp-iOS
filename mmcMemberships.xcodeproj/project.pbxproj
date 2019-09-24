@@ -13,6 +13,7 @@
 		437A7D1D23302E5B009B6E89 /* mmcMemberships.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 437A7D1B23302E5B009B6E89 /* mmcMemberships.xcdatamodeld */; };
 		437A7D1F23302E5D009B6E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437A7D1E23302E5D009B6E89 /* Assets.xcassets */; };
 		437A7D2223302E5D009B6E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437A7D2023302E5D009B6E89 /* LaunchScreen.storyboard */; };
+		439CEB492339B48900EFE002 /* thirdFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439CEB482339B48900EFE002 /* thirdFormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		437A7D1E23302E5D009B6E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		437A7D2123302E5D009B6E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		437A7D2323302E5D009B6E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439CEB482339B48900EFE002 /* thirdFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdFormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,19 @@
 				437A7D1823302E5B009B6E89 /* Main.storyboard */,
 				437A7D1E23302E5D009B6E89 /* Assets.xcassets */,
 				437A7D2023302E5D009B6E89 /* LaunchScreen.storyboard */,
+				439CEB452339749B00EFE002 /* Custom Classes */,
 				437A7D2323302E5D009B6E89 /* Info.plist */,
 				437A7D1B23302E5B009B6E89 /* mmcMemberships.xcdatamodeld */,
 			);
 			path = mmcMemberships;
+			sourceTree = "<group>";
+		};
+		439CEB452339749B00EFE002 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				439CEB482339B48900EFE002 /* thirdFormViewController.swift */,
+			);
+			path = "Custom Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				437A7D1723302E5B009B6E89 /* ViewController.swift in Sources */,
 				437A7D1D23302E5B009B6E89 /* mmcMemberships.xcdatamodeld in Sources */,
+				439CEB492339B48900EFE002 /* thirdFormViewController.swift in Sources */,
 				437A7D1523302E5B009B6E89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N4EEGT33YF;
+				DEVELOPMENT_TEAM = 8Z34KRF6Q2;
 				INFOPLIST_FILE = mmcMemberships/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N4EEGT33YF;
+				DEVELOPMENT_TEAM = 8Z34KRF6Q2;
 				INFOPLIST_FILE = mmcMemberships/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
